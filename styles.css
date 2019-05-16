@@ -1,4 +1,18 @@
 .dropdown {
     padding: 10px;
 }
-    
+.h1, .col {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px;
+}
+.intro {
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
