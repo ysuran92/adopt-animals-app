@@ -19,3 +19,10 @@
 .fcht {
     padding-bottom: 20px;
 }
+.form-group {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-primary {
+    margin: 10px;
+}
