@@ -1,5 +1,6 @@
 .dropdown {
     padding: 10px;
+    position: sticky;
 }
 .h1, .col {
     text-align: center;
@@ -9,12 +10,23 @@
     padding: 0px;
 }
 .intro {
-    font-size: 20pt;
+    font-size: 30pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    min-height: 100vh;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
 }
 .fcht {
     padding-bottom: 20px;
@@ -32,4 +44,19 @@
 }
 .custom-file-label {
     text-align: left;
+}
+.yy {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    min-height: 100vh;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.buddy {
+    background-image: url(assets/playing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
