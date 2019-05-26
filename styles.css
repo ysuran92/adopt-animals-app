@@ -1,6 +1,5 @@
 .dropdown {
     padding: 10px;
-    position: sticky;
     z-index:10;
 }
 .h1, .col {
@@ -78,6 +77,9 @@
 .bodynew {
     background-color: rgb(153, 255, 179);
 }
+.bodyanimal {
+    background-color: rgb(153, 255, 179);
+}
 .form-control {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
@@ -88,7 +90,11 @@
     text-align: left;
     border: 1px solid black;
 }
-.intro span{
+.intro span {
     background: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+}
+.adopción {
+    padding-top: 10px;
+    text-decoration: underline black;
 }
